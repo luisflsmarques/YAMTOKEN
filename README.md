@@ -2,7 +2,7 @@
 ![App Screenshot](https://raw.githubusercontent.com/luisflsmarques/YAMTOKEN/gh-pages/luis_assets/screenshots/Screenshot%202024-09-19%20at%2017.25.44.png)
 
 ### Video Demo
-[Click here to view the demo video](https://raw.githubusercontent.com/luisflsmarques/YAMTOKEN/gh-pages/luis_assets/video/phantom_demo.mp4)
+[Click here to download the demo video](https://raw.githubusercontent.com/luisflsmarques/YAMTOKEN/gh-pages/luis_assets/video/phantom_demo.mp4)
 
 <video controls width="600">
   <source src="https://raw.githubusercontent.com/luisflsmarques/YAMTOKEN/gh-pages/luis_assets/video/demo.mp4" type="video/mp4">
