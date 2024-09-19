@@ -4,8 +4,10 @@
 ### Video Demo
 [Click here to view the demo video](https://raw.githubusercontent.com/luisflsmarques/YAMTOKEN/gh-pages/luis_assets/video/phantom_demo.mp4)
 
-Or click the image below to play the video:
-[![Watch the video](https://img.youtube.com/vi/default.jpg)](https://raw.githubusercontent.com/luisflsmarques/YAMTOKEN/gh-pages/luis_assets/video/phantom_demo.mp4)
+<video controls width="600">
+  <source src="https://raw.githubusercontent.com/luisflsmarques/YAMTOKEN/gh-pages/luis_assets/video/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 # Getting Started with Create React App
 
