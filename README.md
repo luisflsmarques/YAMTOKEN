@@ -5,7 +5,7 @@
 [Click here to download the demo video](https://raw.githubusercontent.com/luisflsmarques/YAMTOKEN/gh-pages/luis_assets/video/phantom_demo.mp4)
 
 <video controls width="600">
-  <source src="https://raw.githubusercontent.com/luisflsmarques/YAMTOKEN/gh-pages/luis_assets/video/demo.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/luisflsmarques/YAMTOKEN/gh-pages/luis_assets/video/phantom_demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
