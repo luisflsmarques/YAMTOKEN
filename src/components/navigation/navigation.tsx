@@ -3,7 +3,8 @@ import Box from "@mui/material/Box";
 import { navigations } from "./navigation.data";
 import { Link } from "@mui/material";
 import { useLocation } from "react-router-dom";
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';  // Material-UI icon for a green check mark
+import Tooltip from '@mui/material/Tooltip';  // Import Tooltip
 
 type NavigationData = {
   path: string;
@@ -110,37 +111,51 @@ const Navigation: FC = () => {
       ))}
 
       {/* Connect/Disconnect Wallet button */}
-      <Box
-        sx={{
-          position: "relative",
-          color: "white",
-          cursor: "pointer",
-          textDecoration: "none",
-          textTransform: "uppercase",
-          fontWeight: 600,
-          display: "inline-flex",
-          alignItems: "center",
-          justifyContent: "center",
-          px: { xs: 0, lg: 3 },
-          mb: { xs: 3, lg: 0 },
-          fontSize: "24px",
-          lineHeight: "6px",
-          width: "324px",
-          height: "45px",
-          borderRadius: "6px",
-          backgroundColor: "#00dbe3"
+      <Tooltip
+        title={walletAddress ? walletAddress : ''}
+        arrow
+        componentsProps={{
+          tooltip: {
+            sx: {
+              fontSize: '1.1rem',  // Increase font size
+              whiteSpace: 'nowrap', // Prevent text from wrapping
+              maxWidth: 'none'      // Remove the max-width constraint
+            }
+          }
         }}
-        onClick={handleWalletButtonClick}  // Connect/Disconnect onClick handler
       >
-        {walletAddress ? (
-          <>
-            <CheckCircleIcon sx={{ color: "green", marginRight: "8px" }} />
-            {truncateAddress(walletAddress)}
-          </>
-        ) : (
-          "Connect Wallet"
-        )}
-      </Box>
+        <Box
+          sx={{
+            position: "relative",
+            color: "white",
+            cursor: "pointer",
+            textDecoration: "none",
+            textTransform: "uppercase",
+            fontWeight: 600,
+            display: "inline-flex",
+            alignItems: "center",
+            justifyContent: "center",
+            px: { xs: 0, lg: 3 },
+            mb: { xs: 3, lg: 0 },
+            fontSize: "24px",
+            lineHeight: "6px",
+            width: "324px",
+            height: "45px",
+            borderRadius: "6px",
+            backgroundColor: "#00dbe3"
+          }}
+          onClick={handleWalletButtonClick}  // Connect/Disconnect onClick handler
+        >
+          {walletAddress ? (
+            <>
+              <CheckCircleIcon sx={{ color: "green", marginRight: "8px" }} />
+              {truncateAddress(walletAddress)}
+            </>
+          ) : (
+            "Connect Wallet"
+          )}
+        </Box>
+      </Tooltip>
     </Box>
   );
 };
