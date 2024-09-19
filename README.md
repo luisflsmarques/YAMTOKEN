@@ -1,5 +1,5 @@
 ### Screenshot
-![App Screenshot](https://raw.githubusercontent.com/luisflsmarques/YAMTOKEN/gh-pages/luis_assets/screenshots/Screenshot 2024-09-19 at 17.25.44.png)
+![App Screenshot](https://raw.githubusercontent.com/luisflsmarques/YAMTOKEN/gh-pages/luis_assets/screenshots/Screenshot%202024-09-19%20at%2017.25.44.png)
 
 ### Video Demo
 [Click here to view the demo video](https://raw.githubusercontent.com/luisflsmarques/YAMTOKEN/gh-pages/luis_assets/video/2024-09-19%2017-41-43.mov)
