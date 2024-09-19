@@ -1,3 +1,12 @@
+### Screenshot
+![App Screenshot](https://raw.githubusercontent.com/luisflsmarques/YAMTOKEN/gh-pages/luis_assets/screenshots/screenshot.png)
+
+### Video Demo
+[Click here to view the demo video](https://raw.githubusercontent.com/luisflsmarques/YAMTOKEN/gh-pages/luis_assets/video/2024-09-19%2017-41-43.mov)
+
+Or click the image below to play the video:
+[![Watch the video](https://img.youtube.com/vi/default.jpg)](https://raw.githubusercontent.com/luisflsmarques/YAMTOKEN/gh-pages/luis_assets/video/2024-09-19%2017-41-43.mov)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
